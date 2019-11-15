@@ -15,7 +15,7 @@ public class ExecuteAround {
     }
 
     public static String processFileLimited() throws IOException {
-        try (BufferedReader bufferedReader = new BufferedReader(new FileReader("/Users/picongzhi/workspace/java/idea/java8-in-action/src/main/resources/com.pcz.ch3/data.txt"))) {
+        try (BufferedReader bufferedReader = new BufferedReader(new FileReader("/Users/picongzhi/workspace/java/idea/java8-in-action/src/main/resources/com/pcz/ch3/data.txt"))) {
             return bufferedReader.readLine();
         }
     }
